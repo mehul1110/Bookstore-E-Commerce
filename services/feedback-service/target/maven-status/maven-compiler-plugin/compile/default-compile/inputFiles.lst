@@ -1,9 +1,0 @@
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\client\OrderHistoryClient.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\config\FeedbackConfig.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\controller\FeedbackController.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\dto\ReviewResponse.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\entity\Review.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\exception\FeedbackOperationException.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\FeedbackServiceApplication.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\repository\ReviewRepository.java
-D:\idealcij\Bookstore-Ecommerce\services\feedback-service\src\main\java\com\bookstore\feedback\service\ReviewService.java
