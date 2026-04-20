@@ -1,0 +1,95 @@
+1. MONOREPO PROJECT STRUCTURE (Your Approach)
+bookstore-microservices/
+│
+├── infrastructure/ # Infra-related configs
+│ ├── docker-compose.yml
+│ ├── k8s/ # Kubernetes YAMLs
+│ └── scripts/
+│
+├── config-server/
+├── eureka-server/
+├── api-gateway/
+│
+├── services/
+│ ├── user-service/
+│ ├── admin-service/
+│ ├── product-service/
+│ ├── cart-service/
+│ ├── wishlist-service/
+│ ├── customer-service/
+│ ├── order-service/
+│ ├── feedback-service/
+│ └── notification-service/
+│
+├── common-lib/ # Shared code (VERY IMPORTANT)
+│ ├── dto/
+│ ├── utils/
+│ ├── exception/
+│ └── security/
+│
+├── docs/
+│ └── architecture.md
+│
+├── .github/workflows/ # CI/CD pipelines
+├── pom.xml (parent)
+└── README.md
+�� This is an improved version of what your document shows on page 17 (project structure) bu
+production-ready.
+✅ 2. EACH SERVICE INTERNAL STRUCTURE
+Example: user-service
+user-service/
+├── src/main/java/com/bookstore/user/
+│ ├── controller/
+│ ├── service/
+│ ├── repository/
+│ ├── entity/
+│ ├── dto/
+│ ├── security/
+│ ├── config/
+│ ├── exception/
+│ └── client/ # Feign clients
+│
+├── src/main/resources/
+│ ├── application.yml
+│
+
+├── Dockerfile
+└── pom.xml
+�� Same applies to all services (product, order, etc.)
+✅ 3. BRANCHING STRATEGY (VERY IMPORTANT)
+You said:
+feature/user-service, feature/product-service
+That&#39;s correct �� — but let me refine it like a real company setup.
+
+�� MAIN BRANCHES
+main → production code
+develop → integration branch
+�� FEATURE BRANCHES (PER SERVICE)
+feature/user-service
+feature/product-service
+feature/order-service
+feature/cart-service
+feature/payment-service
+�� You can also go more granular:
+feature/user-auth
+feature/user-profile
+feature/order-payment
+feature/product-search
+�� HOTFIX BRANCH
+hotfix/login-bug
+�� RELEASE BRANCH (OPTIONAL)
+release/v1.0
+✅ 4. REAL WORKFLOW (STEP-BY-STEP)
+��‍�� Example: You are building User Service
+git checkout develop
+git pull origin develop
+git checkout -b feature/user-service
+�� Develop your user-service
+git add .
+git commit -m &quot;User service initial setup&quot;
+git push origin feature/user-service
+
+�� Create PR:
+feature/user-service → develop
+�� After testing:
+develop → main (release)
