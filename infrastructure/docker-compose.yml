@@ -1,0 +1,107 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.6.0
+    ports:
+      - "9092:9092"
+
+  eureka:
+    build:
+      context: ..
+      dockerfile: eureka-server/Dockerfile
+    ports:
+      - "8761:8761"
+
+  config-server:
+    build:
+      context: ..
+      dockerfile: config-server/Dockerfile
+    ports:
+      - "8888:8888"
+    depends_on:
+      - eureka
+
+  api-gateway:
+    build:
+      context: ..
+      dockerfile: api-gateway/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka
+      - config-server
+
+  user-service:
+    build:
+      context: ..
+      dockerfile: services/user-service/Dockerfile
+    ports:
+      - "8081:8081"
+
+  admin-service:
+    build:
+      context: ..
+      dockerfile: services/admin-service/Dockerfile
+    ports:
+      - "8082:8082"
+
+  product-service:
+    build:
+      context: ..
+      dockerfile: services/product-service/Dockerfile
+    ports:
+      - "8083:8083"
+
+  cart-service:
+    build:
+      context: ..
+      dockerfile: services/cart-service/Dockerfile
+    ports:
+      - "8084:8084"
+
+  wishlist-service:
+    build:
+      context: ..
+      dockerfile: services/wishlist-service/Dockerfile
+    ports:
+      - "8085:8085"
+
+  customer-service:
+    build:
+      context: ..
+      dockerfile: services/customer-service/Dockerfile
+    ports:
+      - "8086:8086"
+
+  order-service:
+    build:
+      context: ..
+      dockerfile: services/order-service/Dockerfile
+    ports:
+      - "8087:8087"
+
+  feedback-service:
+    build:
+      context: ..
+      dockerfile: services/feedback-service/Dockerfile
+    ports:
+      - "8088:8088"
+
+  notification-service:
+    build:
+      context: ..
+      dockerfile: services/notification-service/Dockerfile
+    ports:
+      - "8089:8089"
