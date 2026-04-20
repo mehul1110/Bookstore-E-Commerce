@@ -1,0 +1,10 @@
+com\bookstore\cart\repository\CartRepository.class
+com\bookstore\cart\controller\CartController.class
+com\bookstore\cart\exception\CartOperationException.class
+com\bookstore\cart\config\CartConfig.class
+com\bookstore\cart\entity\Cart.class
+com\bookstore\cart\dto\CartResponse.class
+com\bookstore\cart\client\ProductClient.class
+com\bookstore\cart\service\CartService.class
+com\bookstore\cart\entity\CartItem.class
+com\bookstore\cart\CartServiceApplication.class

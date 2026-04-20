@@ -1,0 +1,11 @@
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\client\UserClient.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\config\CustomerConfig.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\controller\CustomerController.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\CustomerServiceApplication.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\dto\CustomerProfileResponse.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\entity\Address.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\entity\CustomerProfile.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\exception\CustomerOperationException.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\repository\AddressRepository.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\repository\CustomerProfileRepository.java
+D:\idealcij\Bookstore-Ecommerce\services\customer-service\src\main\java\com\bookstore\customer\service\CustomerProfileService.java

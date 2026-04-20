@@ -1,0 +1,10 @@
+com\bookstore\wishlist\service\WishlistService.class
+com\bookstore\wishlist\config\WishlistConfig.class
+com\bookstore\wishlist\exception\WishlistOperationException.class
+com\bookstore\wishlist\dto\WishlistResponse.class
+com\bookstore\wishlist\repository\WishlistRepository.class
+com\bookstore\wishlist\WishlistServiceApplication.class
+com\bookstore\wishlist\client\ProductLookupClient.class
+com\bookstore\wishlist\controller\WishlistController.class
+com\bookstore\wishlist\entity\WishlistItem.class
+com\bookstore\wishlist\entity\Wishlist.class

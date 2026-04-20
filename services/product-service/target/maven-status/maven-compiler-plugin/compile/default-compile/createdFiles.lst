@@ -1,0 +1,11 @@
+com\bookstore\product\config\ProductConfig.class
+com\bookstore\product\repository\ProductRepository.class
+com\bookstore\product\entity\Category.class
+com\bookstore\product\repository\CategoryRepository.class
+com\bookstore\product\dto\ProductResponse.class
+com\bookstore\product\controller\ProductController.class
+com\bookstore\product\exception\ProductOperationException.class
+com\bookstore\product\ProductServiceApplication.class
+com\bookstore\product\client\FeedbackClient.class
+com\bookstore\product\entity\Product.class
+com\bookstore\product\service\ProductCatalogService.class
