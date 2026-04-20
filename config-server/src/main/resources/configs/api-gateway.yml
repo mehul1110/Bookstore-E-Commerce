@@ -1,0 +1,40 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/users/**
+        - id: admin-service
+          uri: lb://ADMIN-SERVICE
+          predicates:
+            - Path=/api/admin/**
+        - id: product-service
+          uri: lb://PRODUCT-SERVICE
+          predicates:
+            - Path=/api/products/**,/api/categories/**
+        - id: cart-service
+          uri: lb://CART-SERVICE
+          predicates:
+            - Path=/api/cart/**
+        - id: wishlist-service
+          uri: lb://WISHLIST-SERVICE
+          predicates:
+            - Path=/api/wishlist/**
+        - id: customer-service
+          uri: lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/api/customers/**
+        - id: order-service
+          uri: lb://ORDER-SERVICE
+          predicates:
+            - Path=/api/orders/**
+        - id: feedback-service
+          uri: lb://FEEDBACK-SERVICE
+          predicates:
+            - Path=/api/feedback/**
+
