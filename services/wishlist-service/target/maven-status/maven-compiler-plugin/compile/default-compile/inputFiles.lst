@@ -1,0 +1,10 @@
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\client\ProductLookupClient.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\config\WishlistConfig.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\controller\WishlistController.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\dto\WishlistResponse.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\entity\Wishlist.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\entity\WishlistItem.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\exception\WishlistOperationException.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\repository\WishlistRepository.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\service\WishlistService.java
+D:\idealcij\Bookstore-Ecommerce\services\wishlist-service\src\main\java\com\bookstore\wishlist\WishlistServiceApplication.java

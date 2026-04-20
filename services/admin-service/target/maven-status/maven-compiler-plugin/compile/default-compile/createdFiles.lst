@@ -1,0 +1,11 @@
+com\bookstore\admin\entity\Admin.class
+com\bookstore\admin\entity\AuditLog.class
+com\bookstore\admin\repository\AuditLogRepository.class
+com\bookstore\admin\config\AdminConfig.class
+com\bookstore\admin\dto\AdminResponse.class
+com\bookstore\admin\service\AdminService.class
+com\bookstore\admin\exception\AdminOperationException.class
+com\bookstore\admin\AdminServiceApplication.class
+com\bookstore\admin\repository\AdminRepository.class
+com\bookstore\admin\controller\AdminController.class
+com\bookstore\admin\client\ProductServiceClient.class

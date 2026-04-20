@@ -1,0 +1,11 @@
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\client\NotificationClient.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\config\UserSecurityConfig.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\controller\UserController.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\dto\UserRequests.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\dto\UserResponse.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\entity\Role.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\entity\User.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\exception\UserOperationException.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\repository\UserRepository.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\service\UserService.java
+D:\idealcij\Bookstore-Ecommerce\services\user-service\src\main\java\com\bookstore\user\UserServiceApplication.java

@@ -1,0 +1,2 @@
+com\bookstore\gateway\security\JwtAuthenticationFilter.class
+com\bookstore\gateway\ApiGatewayApplication.class

@@ -1,0 +1,12 @@
+com\bookstore\order\config\KafkaProducerConfig.class
+com\bookstore\order\controller\OrderController.class
+com\bookstore\order\client\CartServiceClient.class
+com\bookstore\order\repository\OrderRepository.class
+com\bookstore\order\service\OrderService.class
+com\bookstore\order\entity\BookOrder.class
+com\bookstore\order\entity\OrderStatus.class
+com\bookstore\order\exception\OrderOperationException.class
+com\bookstore\order\dto\OrderResponse.class
+com\bookstore\order\OrderServiceApplication.class
+com\bookstore\order\service\OrderEventPublisher.class
+com\bookstore\order\entity\OrderItem.class

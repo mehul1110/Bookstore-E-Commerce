@@ -1,0 +1,9 @@
+com\bookstore\feedback\client\OrderHistoryClient.class
+com\bookstore\feedback\entity\Review.class
+com\bookstore\feedback\service\ReviewService.class
+com\bookstore\feedback\dto\ReviewResponse.class
+com\bookstore\feedback\repository\ReviewRepository.class
+com\bookstore\feedback\controller\FeedbackController.class
+com\bookstore\feedback\FeedbackServiceApplication.class
+com\bookstore\feedback\config\FeedbackConfig.class
+com\bookstore\feedback\exception\FeedbackOperationException.class

@@ -1,0 +1,11 @@
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\client\FeedbackClient.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\config\ProductConfig.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\controller\ProductController.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\dto\ProductResponse.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\entity\Category.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\entity\Product.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\exception\ProductOperationException.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\ProductServiceApplication.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\repository\CategoryRepository.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\repository\ProductRepository.java
+D:\idealcij\Bookstore-Ecommerce\services\product-service\src\main\java\com\bookstore\product\service\ProductCatalogService.java
